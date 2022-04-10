@@ -18,7 +18,6 @@ logger = logging.getLogger(__name__)
 logger.addHandler(handler)
 logger.setLevel(logging.DEBUG)
 
-
 from pprint import pprint as pp
 
 class SubProxy(ProxyResolver):
